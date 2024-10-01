@@ -59,6 +59,7 @@ class Addition extends Component {
     // const randomNumbers = this.randomFunc();
     const { num1, num2, answer, score, seconds, isActive } = this.state;
     console.log(typeof answer);
+    console.log(num1);
 
     return (
       <div className="home">
