@@ -1,10 +1,40 @@
+
+
+
+
 .home {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #101820;
+  color:#FEE715;
+  font-family: Roboto;
 }
 .card {
   text-align: center;
+}
+.input{
+  background-color: #FEE715;
+  font-size: 25px;
+  border-radius: 10px;
+  color: #101820;
+  border: 0px;
+  outline: none;
+  height: 36px;
+  padding-left: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.button{
+  background-color: transparent;
+  border: 2px solid #FEE715;
+  color: #FEE715;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+  border-radius: 8px;
 }

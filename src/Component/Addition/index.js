@@ -62,9 +62,10 @@ class Addition extends Component {
     console.log(num1);
 
     return (
-      <div className="home">
+      <div className="home oswald-newfont">
         {isActive && (
           <div className="card">
+          <h1>Addition Game</h1>
             <h1>{seconds}</h1>
             <h1 className="main-heading">
               {num1} + {num2} = ?
@@ -74,9 +75,10 @@ class Addition extends Component {
               onChange={this.onChangeInput}
               placeholder="Answer"
               value={answer}
+              className="input"
             />
             <br />
-            <button type="button" onClick={this.onClickSubmit}>
+            <button type="button" className="button" onClick={this.onClickSubmit}>
               Submit
             </button>
             <h1>Top Score: {score}</h1>
